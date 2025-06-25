@@ -16,7 +16,7 @@ This Terraform module creates CloudWatch metric alarms with support for both dir
 
 ```hcl
 module "cloudwatch_alarms" {
-  source = "path/to/module"
+  source = "Senora-dev/cloudwatch-alarms/aws"
 
   alarms_json_path = "path/to/alarms.json"
   
